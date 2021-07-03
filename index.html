@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Компьютерная сборка</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/owl.carousel.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Курсы</a></li>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Преподователи</a></li>
+                <li><a href="#">Рассылка</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right btn_header">
+                <li><a href="#">Зайти в кабинет</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid bg_photo hidden-xs hidden-sm">
+            <img src="images/main/main.jpg" alt="">
+        </div>
+        <div class="container main">
+            <div class="main_text">
+                <p>Первый курс</p>
+                <p>по компьютерной сборке</p>
+            </div>
+            <div class="time row">
+                <div class="time_block col-xs-1">
+                    <p class="number" id="days"></p>
+                    <p class="time_name">Дней</p>
+                </div>
+                <div class="time_block col-xs-1">
+                    <p class="number" id="hours"></p>
+                    <p class="time_name">Часов</p>
+                </div>
+                <div class="time_block col-xs-1">
+                    <p class="number" id="minutes"></p>
+                    <p class="time_name">Минут</p>
+                </div>
+                <div class="time_block col-xs-1">
+                    <p class="number" id="seconds"></p>
+                    <p class="time_name">Секунд</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid plashka">
+            <div class="container">
+                <div class="row">
+                    <div class="btn_plashka col-xs-6 col-md-2">
+                        <a class="btn_order"  href="#">Заказать курс</a>
+                    </div>
+                    <div class="stata col-xs-6 col-md-4">
+                        <div class="top_stata stat_content">
+                            <span class="stat_name">Учеников всего:</span>
+                            <span class="stat_number">200</span>
+                        </div>
+                        <div class="bottom_stata stat_content">
+                            <span class="stat_name">Учеников закончили курс:</span>
+                            <span class="stat_number">190</span>
+                        </div>
+                    </div>
+                    <div class="money col-xs-11 col-md-6">
+                        <div class="top_money">
+                            <span class="stat_name">Заработано учениками:</span>
+                            <span class="stat_number">400 000$</span>
+                        </div>
+                        <div class="grad"></div>
+                        <div class="bott_content row">
+                            <div class="left col-xs-6">
+                                0
+                            </div>
+                            <div class="right col-xs-6 text-right">
+                                1 000 000$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="what_we_are_doing">
+            <div class="container">
+                <div class="row">
+                    <div class="img_what col-md-6 col-xs-12">
+                        <img src="images/what_we_are_doing/what_we_are_doing.png" alt="">
+                    </div>
+                    <div class="what_text col-md-6 col-xs-12">
+                        <p class="name_razdel">Чем мы занимаемся?</p>
+                        <p class="simple_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fast_start">
+            <div class="container">
+                <div class="top_content">
+                    <p class="big_name">Быстрый старт</p>
+                    <p class="small_text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                </div>
+                <div id="owl_1" class="owl-carousel">
+                  <div>
+                      <p class="percentage">100%</p>
+                      <div class="fast_grad"></div>
+                      <p class="owl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                  </div>
+                  <div>
+                      <p class="percentage">75%</p>
+                      <div class="fast_grad grad_2"></div>
+                      <p class="owl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                  </div>
+                  <div>
+                      <p class="percentage">50%</p>
+                      <div class="fast_grad grad_3"></div>
+                      <p class="owl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                  </div>
+                  <div>
+                      <p class="percentage">Итог</p>
+                      <div class="fast_grad grad_4"></div>
+                      <p class="owl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section class="right_now">
+            <div class="container">
+                <p class="right_now_name text-center">Получите профессию прямо сейчас</p>
+                <div id="owl_2" class="owl-carousel">
+                  <div class="owl_card text-center">
+                      <div class="img_owl"></div>
+                      <p class="owl_main_text">Только практические навыки в работе</p>
+                      <p class="owl_secondary_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui</p>
+                   </div>
+                  <div class="owl_card text-center">
+                      <div class="img_owl_2"> </div>
+                      <p class="owl_main_text">Работа на самом современном оборудовании</p>
+                      <p class="owl_secondary_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui</p>
+                   </div>
+                  <div class="owl_card text-center">
+                      <div class="img_owl_3"></div>
+                      <p class="owl_main_text">Сертификация по окончанию обучения</p>
+                      <p class="owl_secondary_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui</p>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners hidden-xs hidden-sm hidden-md">
+            <div class="container">
+                <p class="big_name">Партнеры - топовые бренды</p>
+                <div class="row partners_cards">
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                    <div class="partners_card col-lg-3">
+                        <img src="images/partners/msi.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program">
+            <div class="container text-center">
+                <p class="program_name">Программа обучения</p>
+                <p class="small_program_text center-block">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                <div class="programa_grafik row">
+                    <div class="right_program col-xs-6 program_content">
+                        <div class="program_block text-right">
+                            <p class="week">Неделя №1</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                        <div class="program_block text-right">
+                            <p class="week">Неделя №3</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                        <div class="program_block text-right">
+                            <p class="week">Неделя №5</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                        <div class="program_block text-right">
+                            <p class="week">Неделя №7</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                    </div>
+                    <div class="left_program col-xs-6 program_content">
+                        <div class="program_block text-left">
+                            <p class="week">Неделя №2</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                        <div class="program_block text-left">
+                            <p class="week">Неделя №4</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                        <div class="program_block text-left">
+                            <p class="week">Неделя №6</p>
+                            <p class="program_text">Красивая часть курса,</p>
+                            <p class="program_text">которая помогает в успехе</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teachers">
+            <div class="container">
+                <p class="big_name">Ваши преподователи</p>
+                <div id="owl_3" class="owl-carousel">
+                  <div class="teacher_card text-center">
+                      <div class="teacher_photo">
+                          <img src="images/teachers/teacher_1.png" alt="">
+                      </div>
+                      <p class="teacher_name">Дмитрий Иванов</p>
+                      <p class="prof">Специалист по видеокартам</p>
+                      <p class="bio">Биография</p>
+                  </div>
+                  <div class="teacher_card text-center">
+                      <div class="teacher_photo">
+                          <img src="images/teachers/teacher_2.png" alt="">
+                      </div>
+                      <p class="teacher_name">Дмитрий Иванов</p>
+                      <p class="prof">Специалист по видеокартам</p>
+                      <p class="bio">Биография</p>
+                  </div>
+                  <div class="teacher_card text-center">
+                      <div class="teacher_photo">
+                          <img src="images/teachers/teacher_3.png" alt="">
+                      </div>
+                      <p class="teacher_name">Дмитрий Иванов</p>
+                      <p class="prof">Специалист по видеокартам</p>
+                      <p class="bio">Биография</p>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container text-center">
+                <p class="footer_name">Статьи каждую неделю</p>
+                <p class="footer_text center-block">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                <form class="" action="index.html" method="post">
+                    <input class="email" type="email" name="mail" value="" placeholder="E-mail">
+                    <input class="email_btn" type="submit" name="btn" value="Подписаться">
+                </form>
+                <div class="socials center-block">
+                    <div class="social">
+                        <a href="#">
+                            <img src="images/footer/vk.png" alt="">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <img src="images/footer/youtube.png" alt="">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <img src="images/footer/facebook.png" alt="">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <img src="images/footer/insta.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script>
+                $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+            });
+
+
+            $('#owl_1').owlCarousel({
+                loop:false,
+                margin:0,
+                responsiveClass:true,
+                dots:true,
+                stagePadding: 0,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    650:{
+                        items:2,
+                    },
+                    992:{
+                        items:4,
+                        dots:false
+                    }
+                }
+            })
+            $('#owl_2').owlCarousel({
+                loop:false,
+                margin:10,
+                responsiveClass:true,
+                dots:true,
+                stagePadding: 0,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    650:{
+                        items:2,
+                    },
+                    992:{
+                        items:3,
+                        dots:false
+                    }
+                }
+            })
+            $('#owl_3').owlCarousel({
+                loop:false,
+                margin:10,
+                responsiveClass:true,
+                dots:true,
+                stagePadding: 0,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    650:{
+                        items:2,
+                    },
+                    992:{
+                        items:3,
+                        dots:false
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
